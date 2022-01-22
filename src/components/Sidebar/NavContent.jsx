@@ -66,8 +66,8 @@ function NavContent({ handleDrawerToggle }) {
               <SvgIcon
                 color="primary"
                 component={OlympusIcon}
-                viewBox="0 0 151 100"
-                style={{ minWdth: "151px", minHeight: "98px", width: "151px" }}
+                viewBox="0 0 152 98"
+                style={{ minWdth: "151px", minHeight: "98px", width: "152px" }}
               />
             </Link>
 

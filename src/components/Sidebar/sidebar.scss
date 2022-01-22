@@ -1,11 +1,13 @@
 .sidebar {
   min-width: 280px;
   z-index: 2;
+  color: #080e32;
   border-radius: 0 !important;
 }
 
 .MuiDrawer-paper .MuiPaper-root {
   border-radius: 0 !important;
+  background:#080e32;
 }
 
 .dapp-sidebar {
@@ -13,6 +15,7 @@
   overflow: hidden;
   border-radius: 0 !important;
   backdrop-filter: blur(10px);
+  background:#080e32;
   -webkit-backdrop-filter: blur(10px);
 }
 

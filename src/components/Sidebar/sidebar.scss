@@ -1,13 +1,13 @@
 .sidebar {
   min-width: 280px;
   z-index: 2;
-  color: #080e32;
   border-radius: 0 !important;
 }
 
 .MuiDrawer-paper .MuiPaper-root {
   border-radius: 0 !important;
   background:#080e32;
+  color: #ffffff;
 }
 
 .dapp-sidebar {
@@ -27,6 +27,7 @@
 .dapp-sidebar-inner {
   height: 100%;
   overflow: auto;
+  
 }
 
 .branding-header {
@@ -82,7 +83,7 @@
 
 .bond-discounts {
   text-align: left;
-  color: #999999;
+  color: #ffffff;
   padding-left: 33px;
   margin-top: 8px;
   a {
@@ -112,7 +113,6 @@
       margin: 0;
 
       .MuiTypography-body2 {
-        color: #999999;
         margin-left: 33px;
       }
     }

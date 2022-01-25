@@ -67,7 +67,7 @@ function NavContent({ handleDrawerToggle }) {
                 color="primary"
                 component={OlympusIcon}
                 viewBox="0 0 152 98"
-                style={{ minWdth: "151px", minHeight: "98px", width: "152px" }}
+                style={{ minWdth: "151px", minHeight: "130px", width: "200px" }}
               />
             </Link>
 

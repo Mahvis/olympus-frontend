@@ -8,9 +8,9 @@ export default function Social() {
         <Icon name={"github"} />
       </Link>
 
-      <Link href="https://olympusdao.medium.com/" target="_blank">
+      {/*<Link href="https://olympusdao.medium.com/" target="_blank">
         <Icon name={"medium"} />
-      </Link>
+  </Link>*/}
 
       <Link href="https://twitter.com/OlympusDAO" target="_blank">
         <Icon name={"twitter"} />

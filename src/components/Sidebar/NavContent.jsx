@@ -19,7 +19,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { NavLink, useLocation } from "react-router-dom";
 import { NetworkId } from "src/constants";
-import { EnvHelper } from "src/helpers/Environment";
+//import { EnvHelper } from "src/helpers/Environment";
 import { useAppSelector } from "src/hooks";
 import { useWeb3Context } from "src/hooks/web3Context";
 import { getAllBonds, getUserNotes } from "src/slices/BondSliceV2";
@@ -161,11 +161,11 @@ function NavContent({ handleDrawerToggle }) {
                   {/* NOTE (appleseed-olyzaps): OlyZaps disabled until v2 contracts */}
                   {/*<NavItem to="/zap" icon="zap" label={t`Zap`} /> */}
 
-                  {EnvHelper.isGiveEnabled(location.search) && (
-                    <NavItem to="/give" icon="give" label={t`Give`} chip={t`New`} onClick={handleDrawerToggle} />
-                  )}
+                  {/*{EnvHelper.isGiveEnabled(location.search) && (
+                  <NavItem to="/give" icon="give" label={t`Give`} chip={t`New`} onClick={handleDrawerToggle} />
+                  )}*/}
                   <NavItem to="/wrap" icon="wrap" label={t`Wrap`} onClick={handleDrawerToggle} />
-                  <NavItem
+                  {/*<NavItem
                     href={"https://synapseprotocol.com/?inputCurrency=gOHM&outputCurrency=gOHM&outputChain=43114"}
                     icon="bridge"
                     label={t`Bridge`}
@@ -174,26 +174,26 @@ function NavContent({ handleDrawerToggle }) {
                   <Box className="menu-divider">
                     <Divider />
                   </Box>
-                  <NavItem
+                  {/*<NavItem
                     href="https://pro.olympusdao.finance/"
                     icon="olympus"
                     label={t`Olympus Pro`}
                     onClick={handleDrawerToggle}
-                  />
+                  />*/}
                   {/* <NavItem to="/33-together" icon="33-together" label={t`3,3 Together`} /> */}
-                  <Box className="menu-divider">
+                  {/*<Box className="menu-divider">
                     <Divider />
-                  </Box>
+                </Box>*/}
                 </>
               ) : (
                 <>
                   <NavItem to="/wrap" icon="wrap" label={t`Wrap`} onClick={handleDrawerToggle} />
-                  <NavItem
+                  {/*<NavItem
                     href="https://synapseprotocol.com/?inputCurrency=gOHM&outputCurrency=gOHM&outputChain=43114"
                     icon="bridge"
                     label={t`Bridge`}
                     onClick={handleDrawerToggle}
-                  />
+                  />*/}
                 </>
               )}
               {Object.keys(externalUrls).map((link, i) => {

@@ -228,7 +228,7 @@ exports[`<Sidebar/> should render component 1`] = `
                       </h6>
                     </a>
                   </div>
-                  <div
+                  {/*<div
                     class="makeStyles-root-3 nav-item-container"
                   >
                     <a
@@ -266,7 +266,7 @@ exports[`<Sidebar/> should render component 1`] = `
                         </div>
                       </h6>
                     </a>
-                  </div>
+                  </div>*/}
                   <div
                     class="makeStyles-root-3 nav-item-container"
                   >
